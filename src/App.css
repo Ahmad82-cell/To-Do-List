@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.iconButtom {
+  transition: all 0.2s !important;
+}
+
+.iconButtom:hover {
+  background-color: #c5c5c5 !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  transition: ease-in-out 0.2s !important;
+}
+
+.card:hover {
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
+}
